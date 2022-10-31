@@ -1,0 +1,1702 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #595959;
+    
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 1160px) {
+    body {
+        width: 90%;
+
+}
+}
+
+
+
+/*----------------------------------- Navigation----------------------------------- */
+.customNav {
+
+    width: 100%;
+    background-color: #414141 !important;
+    background-size: cover;
+    background-color: #414141;
+
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 80px;
+}
+
+.nav-item {
+    margin: 0px 15px;
+
+}
+
+.nav-link,
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #414141;
+    background-size: cover;
+}
+
+.drop-item:focus,
+.nav-link:hover {
+    color: #414141 !important;
+}
+
+.dropdown-item:hover,
+.nav-link:hover {
+    color: #FFB633 !important;
+    background-color: transparent;
+}
+
+.dropdown-item:active,
+.nav-link:active {
+    color: #FFB633 !important;
+
+}
+
+
+.nav-link:hover {
+    color: #FFB633 !important;
+
+}
+
+.navbar-light .navbar-toggler {
+    color: white !important;
+    border-color: white !important;
+    background-color: white;
+}
+
+
+
+/*----------------------------------- home page Hero----------------------------------- */
+.leftHero {
+    background-color: #FFB633;
+    height: auto;
+}
+
+.resumeSection {
+    background-size: cover;
+}
+
+.rightHero {
+    background-color: #2C2C2C;
+    height: 400px;
+    color: white;
+    padding: 130px 20px 40px 150px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .rightHero {
+        height: auto;
+        background-color: #2c2c2c !important;
+        padding: 50px 20px 50px 50px;
+    }
+
+    .leftHero {
+        height: auto;
+        background-color: #2C2C2C;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .rightHero {
+        background-color: #2c2c2c;
+        padding: 100px 30px 30px 40px;
+    }
+
+    .leftHero {
+        height: auto;
+        background-color: #FFB633;
+    }
+
+}
+
+
+
+
+mark {
+    background-color: transparent;
+    color: #FFB633;
+    padding: 0;
+}
+
+.navCTA {
+    background-color: #2c2c2c;
+    color: #FFB633;
+    height: 50px;
+    align-items: center !important;
+    padding: 3px 10px;
+    border-radius: 0;
+    border: 3pt solid #FFB633;
+}
+
+.navCTA:hover,
+.navCTA:active,
+.navCTA:focus {
+    color: #2C2C2C;
+    background-color: #FFB633;
+    border: 3pt solid #2C2C2C;
+}
+
+.aboutMe {
+    background-color: #3c3c3c;
+    color: #dcddd1;
+    height: auto;
+    font-size: 50pt;
+    font-weight: 700;
+    line-height: 1;
+    text-align: right;
+    padding: 160px 140px 160px 140px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.aboutMeDetail {
+    background-color: #3c3c3c;
+    padding: 100px 100px 100px 100px;
+    color: white;
+    font-weight: 300;
+    line-height: 2;
+}
+
+
+@media screen and (max-width: 1160px) {
+    .aboutMeDetail {
+        background-color: #3c3c3c;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .aboutMe {
+        height: auto;
+        font-size: 40pt;
+        text-align: right;
+        padding: 60px 40px 0px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutMe {
+        padding: 30px 20px;
+        text-align: center;
+    }
+}
+
+/*----------------------------------- home page Case Study-----------------------------------*/
+
+.caseStudy {
+    background-color: #2c2c2c;
+    color: #dcddd1;
+    height: auto;
+    font-size: 50pt;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    padding: 160px 140px 160px 140px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+
+}
+
+.caseStudyDetail {
+    background-color: #2c2c2c;
+    padding: 80px;
+
+
+}
+
+
+
+@media screen and (max-width: 1160px) {
+    .caseStudyDetail {
+        padding: 40px;
+
+    }
+
+    .caseStudy {
+        height: auto;
+        font-size: 40pt;
+        text-align: left;
+        padding: 60px 40px 0px 40px;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .caseStudy {
+        padding: 10px 50px 50px 50px ;
+        text-align: center;
+    }
+
+    .caseStudyDetail {
+        padding: 30px 20px 0px 20px;
+    }
+  
+    
+    .cardImgTrans{
+    background-color: transparent !important;
+    border: 0pt;
+    }
+
+}
+
+
+    
+
+
+/*---------------------------------- Footer----------------------------------*/
+
+
+
+.card-header {
+    background-color: #3c3c3c;
+    color: #FFB633;
+}
+
+.card-body {
+    background-color: #FFB633;
+    font-weight: 600;
+}
+
+.lastFooter {
+    background-color: #FFB633 !important;
+}
+
+.footerImg {
+    padding: 5px;
+    width: 60px;
+}
+
+.noBorderFooter{
+    border: 0pt;
+}
+
+/*------------------------------------Case Studies-------------------------------------->
+
+  <!------------------------Case Study1-------------------------------*/
+
+
+/*-------Button----------*/
+
+.caseStudyCTA {
+    background-color: #3c3c3c;
+    color: #FFB633;
+    height: 40px;
+    align-items: center !important;
+    padding: 3px 10px;
+    border-radius: 0;
+    border: 3pt solid #FFB633;
+}
+
+.caseStudyCTA:hover,
+.caseStudyCTA:active,
+.caseStudyCTA:focus {
+    color: #2C2C2C;
+    background-color: #FFB633;
+    border: 3pt solid #2C2C2C;
+}
+
+/*---------------------------------------*/
+
+
+/*------------------------------case Study Table 01---------------------------------*/
+.caseStudyTable01 {
+    background-color: #3c3c3c !important;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.caseStudyText01 {
+    padding: 80px;
+    color: white;
+    margin: auto;
+    text-align: right;
+
+}
+
+
+.caseStudyImg01 {
+    padding: 10px 100px 10px 100px;
+}
+
+.imgBg01 {
+    background-color: transparent !important;
+    border: 0px;
+    padding: 50px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .caseStudyText01 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .caseStudyImg01 {
+        padding: 20px;
+        height: auto;
+    }
+
+    .imgBg01 {
+        padding: 10px 60px 10px 60px;
+    }
+
+    .caseStudyTable01 {
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+    .caseStudyText01 {
+        padding: 20px 20px 10px 20px;
+    }
+
+    .caseStudyImg01 {
+        padding: 0px;
+    }
+
+}
+
+/*------------------------------case Study Table 02---------------------------------*/
+
+.caseStudyTable02 {
+    background-color: #3c3c3c !important;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.caseStudyText02 {
+    padding: 80px;
+    color: white;
+    margin: auto;
+    text-align: left;
+
+}
+
+
+.caseStudyImg02 {
+    padding: 10px 100px 10px 100px;
+}
+
+.imgBg02 {
+    background-color: transparent !important;
+    border: 0px;
+    padding: 50px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .caseStudyText02 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .caseStudyImg02 {
+        padding: 20px;
+        height: auto;
+    }
+
+    .imgBg02 {
+        padding: 10px 60px 0px 60px;
+    }
+
+    .caseStudyTable02 {
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+    .caseStudyText02 {
+        padding: 10px;
+    }
+
+    .caseStudyImg02 {
+        padding: 0px;
+    }
+
+}
+
+/*------------------------------case Study Table 03---------------------------------*/
+.caseStudyTable03 {
+    background-color: #3c3c3c !important;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.caseStudyText03 {
+    padding: 80px;
+    color: white;
+    margin: auto;
+    text-align: right;
+
+}
+
+
+.caseStudyImg03 {
+    padding: 10px 100px 10px 100px;
+}
+
+.imgBg03 {
+    background-color: transparent !important;
+    border: 0px;
+    padding: 50px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .caseStudyText03 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .caseStudyImg03 {
+        padding: 20px;
+        height: auto;
+    }
+
+    .imgBg03 {
+        padding: 10px 60px 10px 60px;
+    }
+
+    .caseStudyTable03 {
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+    .caseStudyText03 {
+        padding: 20px 20px 10px 20px;
+    }
+
+    .caseStudyImg03 {
+        padding: 0px;
+    }
+
+}
+
+/*------------------------------case Study Table 04---------------------------------*/
+
+.caseStudyTable04 {
+    background-color: #3c3c3c !important;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.caseStudyText04 {
+    padding: 80px;
+    color: white;
+    margin: auto;
+    text-align: left;
+
+}
+
+
+.caseStudyImg04 {
+    padding: 10px 100px 10px 100px;
+}
+
+.imgBg04 {
+    background-color: transparent !important;
+    border: 0px;
+    padding: 50px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .caseStudyText04 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .caseStudyImg04 {
+        padding: 20px;
+        height: auto;
+    }
+
+    .imgBg04 {
+        padding: 10px 60px 0px 60px;
+    }
+
+    .caseStudyTable04 {
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+    .caseStudyText04 {
+        padding: 10px;
+    }
+
+    .caseStudyImg04 {
+        padding: 0px;
+    }
+
+}
+
+/*----------------------------------- Numy case study Hero----------------------------------- */
+.leftHeroCaseStudy {
+    background-color: #2C2C2C;
+    height: auto;
+    color: #3ACEFC;
+    padding: 300px 50px 0px 50px;
+    text-align: center;
+    margin: auto;
+
+    font-weight: 800 !important;
+    font-size: 50pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resumeSection {
+    background-size: cover;
+    background-color: #2C2C2C;
+}
+
+.rightHeroCaseStudy {
+    padding: 20px 20px 0px 50px;
+    background-color: #3ACEFC;
+
+}
+
+.ImgCenterPad{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .leftHeroCaseStudy {
+        height: auto;
+        background-color: #2C2C2C;
+
+        font-weight: 400 !important;
+        font-size: 40pt !important;
+        padding-top: 40px !important;
+
+    }
+
+    .rightHeroCaseStudy {
+        background-color: #3ACEFC;
+        padding: 10px 50px 0px 50px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 1160px) {
+    .leftHeroCaseStudy {
+        height: auto;
+        background-color: #2C2C2C;
+        padding: 200px 20px 0px 20px;
+
+        font-weight: 800 !important;
+        font-size: 50pt;
+
+    }
+
+    .rightHeroCaseStudy {
+        background-color: #3ACEFC;
+        padding: 200px 50px 0px 50px;
+    }
+}
+
+
+
+
+/*----------------------------------- NUMY CASE STUDY----------------------------------- */
+
+
+
+/*----------------------------------- numyPoint01----------------------------------- */
+.numyPoint01 {
+    background-color: #3c3c3c;
+}
+
+.numyText01 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.numyImg01 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading01 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .numyText01 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .numyImg01 {
+        padding: 20px;
+
+    }
+}
+
+.imgPadding01{
+    padding: 10px;
+}
+
+/*----------------------------------- numyPoint02----------------------------------- */
+.numyPoint02 {
+    background-color: #3c3c3c;
+}
+
+.numyText02 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.numyImg02 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading02 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .numyText02 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .numyImg02 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- numyPoint03----------------------------------- */
+.numyPoint03 {
+    background-color: #3c3c3c;
+}
+
+.numyText03 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.numyImg03 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading03 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .numyText03 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .numyImg03 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- numyPoint04----------------------------------- */
+.numyPoint04 {
+    background-color: #3c3c3c;
+}
+
+.numyText04 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.numyImg04 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading04 {
+    padding-bottom: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .numyText04 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .numyImg04 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- numyPoint05----------------------------------- */
+.numyPoint05 {
+    background-color: #3c3c3c;
+}
+
+.numyText05 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.numyImg05 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading05 {
+    padding-bottom: 20px;
+
+}
+
+.lineHeightNumyPoint {
+    line-height: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .numyText05 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .numyImg05 {
+        padding: 20px;
+
+    }
+}
+
+
+/*----------------------------------- WebDev CASE STUDY----------------------------------- */
+
+/*----------------------------------- Numy case study Hero----------------------------------- */
+.webleftHeroCaseStudy {
+    background-color: #2C2C2C;
+    height: auto;
+    color: #FDC74D;
+    padding: 300px 50px 0px 50px;
+    text-align: center;
+    margin: auto;
+
+    font-weight: 800 !important;
+    font-size: 35pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.webresumeSection {
+    background-size: cover;
+    background-color: #2C2C2C;
+}
+
+.webrightHeroCaseStudy {
+    padding: 100px 20px 0px 50px;
+    background-color: #FDC74D;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .webleftHeroCaseStudy {
+        height: auto;
+        background-color: #2C2C2C;
+
+        font-weight: 400 !important;
+        font-size: 30pt !important;
+        padding-top: 40px !important;
+
+    }
+
+    .webrightHeroCaseStudy {
+        background-color: #FDC74D;
+        padding: 10px 50px 0px 50px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 1160px) {
+    .webleftHeroCaseStudy {
+        height: auto;
+        background-color: #2C2C2C;
+        padding: 200px 20px 0px 20px;
+
+        font-weight: 800 !important;
+        font-size: 40pt;
+
+    }
+
+    .webrightHeroCaseStudy {
+        background-color: #FDC74D;
+        padding: 200px 50px 0px 50px;
+    }
+}
+
+
+
+
+/*----------------------------------- webdevPoint01----------------------------------- */
+.webdevPoint01 {
+    background-color: #3c3c3c;
+}
+
+.webdevText01 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.webdevImg01 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading01 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .webdevText01 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .webdevImg01 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- webdevPoint02----------------------------------- */
+.webdevPoint02 {
+    background-color: #3c3c3c;
+}
+
+.webdevText02 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.webdevImg02 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading02 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .webdevText02 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .webdevImg02 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- numyPoint03----------------------------------- */
+.webdevPoint03 {
+    background-color: #3c3c3c;
+}
+
+.webdevText03 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.webdevImg03 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading03 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .webdevText03 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .webdevImg03 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- numyPoint04----------------------------------- */
+.webdevPoint04 {
+    background-color: #3c3c3c;
+}
+
+.webdevText04 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.webdevImg04 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading04 {
+    padding-bottom: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .webdevText04 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .webdevImg04 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- numyPoint05----------------------------------- */
+.webdevPoint05 {
+    background-color: #3c3c3c;
+}
+
+.webdevText05 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.webdevImg05 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading05 {
+    padding-bottom: 20px;
+
+}
+
+.lineHeightwebdevPoint {
+    line-height: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .webdevText05 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .webdevImg05 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- mY tRAVEL aPP CASE STUDY----------------------------------- */
+
+/*----------------------------------- mta case study Hero----------------------------------- */
+.mtaleftHeroCaseStudy {
+    background-color: #2C2C2C;
+    height: auto;
+    color: #34D56B;
+    padding: 300px 50px 0px 50px;
+    text-align: center;
+    margin: auto;
+
+    font-weight: 800 !important;
+    font-size: 50pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mtaresumeSection {
+    background-size: cover;
+    background-color: #2C2C2C;
+}
+
+.mtarightHeroCaseStudy {
+    padding: 100px 20px 0px 50px;
+    background-color: #34D56B;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .mtaleftHeroCaseStudy {
+        height: auto;
+        background-color: #2C2C2C;
+
+        font-weight: 400 !important;
+        font-size: 30pt !important;
+        padding-top: 40px !important;
+
+    }
+
+    .mtarightHeroCaseStudy {
+        background-color: #34D56B;
+        padding: 10px 50px 0px 50px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 1160px) {
+    .mtaleftHeroCaseStudy {
+        height: auto;
+        background-color: #2C2C2C;
+        padding: 200px 20px 0px 20px;
+
+        font-weight: 800 !important;
+        font-size: 40pt;
+
+    }
+
+    .mtarightHeroCaseStudy {
+        background-color: #34D56B;
+        padding: 200px 50px 0px 50px;
+    }
+}
+
+
+
+
+/*----------------------------------- webdevPoint01----------------------------------- */
+.mtadevPoint01 {
+    background-color: #3c3c3c;
+}
+
+.mtadevText01 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.mtadevImg01 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading01 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .mtadevText01 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .mtadevImg01 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- webdevPoint02----------------------------------- */
+.mtadevPoint02 {
+    background-color: #3c3c3c;
+}
+
+.mtadevText02 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.mtadevImg02 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading02 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .webdevText02 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .mtadevImg02 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- numyPoint03----------------------------------- */
+.mtadevPoint03 {
+    background-color: #3c3c3c;
+}
+
+.mtadevText03 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.mtadevImg03 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading03 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .mtadevText03 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .mtadevImg03 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- numyPoint04----------------------------------- */
+.mtadevPoint04 {
+    background-color: #3c3c3c;
+}
+
+.mtadevText04 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.mtadevImg04 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading04 {
+    padding-bottom: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .mtadevText04 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .mtadevImg04 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- numyPoint05----------------------------------- */
+.mtadevPoint05 {
+    background-color: #3c3c3c;
+}
+
+.mtadevText05 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.mtadevImg05 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading05 {
+    padding-bottom: 20px;
+
+}
+
+.lineHeightmtadevPoint {
+    line-height: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .mtadevText05 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .mtadevImg05 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- WLHW CASE STUDY----------------------------------- */
+
+/*----------------------------------- whlw case study Hero----------------------------------- */
+.whlwleftHeroCaseStudy {
+    background-color: #2C2C2C;
+    height: auto;
+    color: #DE5CD6;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    margin: auto;
+
+    font-weight: 800 !important;
+    font-size: 30pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.whlwresumeSection {
+    background-size: cover;
+    background-color: #2C2C2C;
+}
+
+.whlwrightHeroCaseStudy {
+    padding: 110px 20px 0px 50px;
+    background-color: #DE5CD6;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .whlwleftHeroCaseStudy {
+        height: auto;
+        background-color: #2C2C2C;
+
+        font-weight: 400 !important;
+        font-size: 20pt !important;
+        padding-top: 40px !important;
+
+    }
+
+    .whlwrightHeroCaseStudy {
+        background-color: #DE5CD6;
+        padding: 10px 50px 0px 50px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 1160px) {
+    .whlwleftHeroCaseStudy {
+        height: auto;
+        background-color: #2C2C2C;
+        padding: 0px 20px 0px 20px;
+
+        font-weight: 800 !important;
+        font-size: 20pt;
+
+    }
+
+    .whlwrightHeroCaseStudy {
+        background-color: #DE5CD6;
+        padding: 50px 50px 0px 50px;
+    }
+}
+
+
+
+
+/*----------------------------------- whlwdevPoint01----------------------------------- */
+.whlwdevPoint01 {
+    background-color: #3c3c3c;
+}
+
+.whlwdevText01 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.whlwdevImg01 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading01 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .whlwdevText01 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .whlwdevImg01 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- whlwdevPoint02----------------------------------- */
+.whlwdevPoint02 {
+    background-color: #3c3c3c;
+}
+
+.whlwdevText02 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.whlwdevImg02 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading02 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .webdevText02 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .whlwdevImg02 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- whlwPoint03----------------------------------- */
+.whlwdevPoint03 {
+    background-color: #3c3c3c;
+}
+
+.whlwdevText03 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.whlwdevImg03 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading03 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .whlwdevText03 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .whlwdevImg03 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- whlwPoint04----------------------------------- */
+.whlwdevPoint04 {
+    background-color: #3c3c3c;
+}
+
+.whlwdevText04 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.whlwdevImg04 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading04 {
+    padding-bottom: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .whlwdevText04 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .whlwdevImg04 {
+        padding: 20px;
+
+    }
+}
+
+/*----------------------------------- whlwPoint05----------------------------------- */
+.whlwdevPoint05 {
+    background-color: #3c3c3c;
+}
+
+.whlwdevText05 {
+    background-color: #3c3c3c;
+    padding: 40px;
+    color: white;
+    line-height: 2;
+}
+
+.whlwdevImg05 {
+    padding: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.pointHeading05 {
+    padding-bottom: 20px;
+
+}
+
+.lineHeightwhlwdevPoint {
+    line-height: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .whlwdevText05 {
+        padding: 30px 15px 0px 15px;
+        color: white;
+
+    }
+
+    .whlwdevImg05 {
+        padding: 20px;
+
+    }
+}
+
+/*------------------------------------Contact Me-------------------------------------->*/
+
+.messageMe{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.containerCM{
+    text-align: center;
+ 
+    background-color: #3c3c3c;
+    color: #2c2c2c;
+}
+.heyos{
+    padding: 50px;
+}
+
+.email{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.mobile{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.location{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+
+/*------------------------------------Skills & Services-------------------------------------->*/
+
+
+.skillText {
+    background-color: #3c3c3c;
+    color: #dcddd1;
+    height: auto;
+    font-size: 50pt;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    padding: 160px 140px 160px 140px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.serviceText{
+    background-color: #3c3c3c;
+    color: #dcddd1;
+    height: auto;
+    font-size: 50pt;
+    font-weight: 700;
+    line-height: 1;
+    text-align: right;
+    padding: 100px 20px 160px 20px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.skillsImgSet{
+    padding: 80px;
+    background-color: #3c3c3c;
+    margin: auto;
+}
+.skillsImgSetDiv{
+    background-color: #3c3c3c;
+}
+
+
+@media screen and (max-width: 768px) {
+    .skillText {
+        
+        font-size: 40pt;
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .serviceText{
+        font-size: 40pt;
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .skillsImgSet{
+        padding: 50px;
+    }
+    .borderBlockGrid {
+        
+        border-bottom: 1pt solid #2e2e2e;
+        
+    }
+
+   
+}
+@media screen and (max-width: 1160px) {
+    .skillText {
+        
+        font-size: 40pt;
+        padding: 30px 20px 30px 20px;
+    }
+    .serviceText{
+        font-size: 40pt;
+        padding: 30px 20px 30px 20px;
+    }
+    .skillsImgSet{
+        padding: 20px;
+    }
+}
+
