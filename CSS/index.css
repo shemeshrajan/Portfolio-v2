@@ -1615,8 +1615,28 @@ mark {
     
 }
 
+.contactDetails{
+    background-color: #2c2c2c;
+}
 
-/*------------------------------------Skills & Services-------------------------------------->*/
+.namemainData {
+    color: white;
+    padding-top: 30px;
+    border: 0pt;
+}
+
+.mainData{
+    font-size: 35pt;
+    color: #FFB633;
+}
+
+.removeBorder{
+    border: 0pt;
+}
+
+
+
+ 
 
 
 .skillText {
